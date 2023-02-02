@@ -156,7 +156,7 @@ const calculatePointsOnStand = (points, array) => {
 const getCardImage = (array) => {
 	for (const item of array) {
 		let newCard = document.createElement("img");
-		newCard.src = `/images/${item["rank"]}_of_${item["suit"]}.png`;
+		newCard.src = `/../images/${item["rank"]}_of_${item["suit"]}.png`;
 		return newCard;
 	}
 };
